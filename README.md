@@ -35,3 +35,13 @@ useEffect, promise, forEach
       
 
     }
+
+# Promise
+
+
+   to be continued...
+
+
+# forEach
+
+   to be continued...
