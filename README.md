@@ -58,3 +58,12 @@ useEffect, promise, forEach
 # forEach
 
    to be continued...
+   
+   
+# useState
+
+    import React, { useState, useEffect } from 'react';
+  
+    const [hasPermission, setHasPermission] = useState(null);
+    const [type, setType] = useState(Camera.Constants.Type.back);
+
