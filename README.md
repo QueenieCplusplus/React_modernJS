@@ -63,6 +63,15 @@ useEffect, promise, forEach
 
    to be continued...
    
+# async
+
+        pressHandler = async () => {
+        
+          let result = await WebBrowser.openBrowserAsync('https://www.google.com/');
+          this.setState({ result });
+          
+        };
+
    
 # useState
 
