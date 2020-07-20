@@ -6,9 +6,6 @@ useEffect, promise, forEach
 
       import React, { useEffect } from 'react';
 
-      export default function App() {
-      
-
         useEffect(() => {
         
           async function methodCall() {
@@ -25,16 +22,6 @@ useEffect, promise, forEach
         
         );
 
-
-       return (
-       
-         <View>
-           <Text></Text>
-         </View>
-       );
-      
-
-    }
 
 // requestPermission example
 
