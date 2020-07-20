@@ -23,7 +23,7 @@ useEffect, promise, forEach
         );
 
 
-// requestPermission example
+// requestPermission for camera 
 
 
             useEffect(() => {
@@ -34,6 +34,23 @@ useEffect, promise, forEach
               }, []);
 
 
+// requestPermission for geolocation
+
+        useEffect(() => {
+        
+          (async () => {
+            let { status } = await Location.requestPermissionsAsync();
+            if (status !== 'granted') {
+              setErrorMsg('Permission to access location was denied');
+            }
+
+            let location = await Location.getCurrentPositionAsync({});
+            setLocation(location);
+          })
+          
+          ();
+          
+        });
 
 
 # Promise
