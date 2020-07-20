@@ -36,6 +36,19 @@ useEffect, promise, forEach
 
     }
 
+// other example
+
+
+            useEffect(() => {
+                (async () => {
+                  const { status } = await Camera.requestPermissionsAsync();
+                  setHasPermission(status === 'granted');
+                })();
+              }, []);
+
+
+
+
 # Promise
 
 
