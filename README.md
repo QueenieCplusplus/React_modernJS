@@ -68,6 +68,14 @@ useEffect, promise, forEach
 
     import React, { useState, useEffect } from 'react';
   
+ //camera
+ 
     const [hasPermission, setHasPermission] = useState(null);
     const [type, setType] = useState(Camera.Constants.Type.back);
+    
+ //map
+ 
+     const [location, setLocation] = useState(null);
+     const [errorMsg, setErrorMsg] = useState(null); 
+
 
