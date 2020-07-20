@@ -65,6 +65,10 @@ useEffect, promise, forEach
    
 # async
 
+       state = {
+            result: null,
+        };
+
         pressHandler = async () => {
         
           let result = await WebBrowser.openBrowserAsync('https://www.google.com/');
