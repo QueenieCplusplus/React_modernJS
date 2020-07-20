@@ -36,7 +36,7 @@ useEffect, promise, forEach
 
     }
 
-// other example
+// requestPermission example
 
 
             useEffect(() => {
