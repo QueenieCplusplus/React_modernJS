@@ -28,12 +28,16 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
 
         //ES5
         
+        const PKQ = 'katesreact2020'
+        var url = 'https://github.com/' + PKQ
         
-        
+            
         //ES6+
         
+        const PKQ = 'katesreact2020'
+        let url = 'https://github.com/${PKQ}'
         
-
+        
 * 胖箭頭 => 函式與綁定 bind(this)
 
 舊版本，常常需要 bind 函式，讓內容符合預期，尤其是回呼函式。
