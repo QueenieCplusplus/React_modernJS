@@ -192,6 +192,14 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
 
    to be continued...
    
+   
+   
+# map
+
+   to be continued...
+   
+   
+   
 # async
 
        state = {
