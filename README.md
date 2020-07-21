@@ -169,6 +169,9 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
   Promise 的優勢能讓我們輕易的組合函數，回調 (callback) 迫使我們在函式中寫死函式名稱（或是函式字面值)，然後以函式
   的額外參數形式去傳遞。
   
+  Promise 幫助我們將如上述的值通通串聯起來，我們有值被包覆在 promise 裡面，然後 then 等待（倘若需要時）並解開它，
+  方才將這個值作為參數傳遞給一個 promise 或函式。
+  
        // 可用 then 串連回呼函式，避免掉入回呼地獄的陷阱。
        
        updateToAPI().then().then().then()...
