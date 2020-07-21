@@ -232,6 +232,15 @@ Promise 四步驟：
 
   遍歷自己。
   
+      // 範例
+    
+    let K_Array = [];
+    
+    [500, 200, 100, 50, 10, 5].forEach(ele=>{
+    
+         K_Array.push(ele * 2)
+    });
+  
  
 # map
 
