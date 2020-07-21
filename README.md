@@ -10,6 +10,20 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
 
 以往語言版本使用 var，新版本開始劃分 let 和 const ， let 可以重新賦值，const 不可，且 let 僅僅能在宣告在同一程式區塊（local）。
 
+* 預設參數
+
+        //為函式指定預設參數
+        
+        let userChecker = (name = "plz enter name" ) => {
+        
+              console.log("welcome," + name + ".")
+        
+        };
+        
+        userCheck("Eric"); // welcome, Eric.
+        
+        userChecker(); // welcom,plz enter name.
+
 * 胖箭頭 => 函式與綁定 bind(this)
 
 舊版本，常常需要 bind 函式，讓內容符合預期，尤其是回呼函式。
