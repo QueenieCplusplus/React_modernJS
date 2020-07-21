@@ -232,12 +232,20 @@ Promise 四步驟：
 
   遍歷自己。
   
-  
-# for in , for of, do...while
+ 
+# map
 
-  to be continued...
-   
-   
+  在陣列上套用函式創造出新陣列。
+  
+  
+    // 範例
+    
+    let 3timesArray =[1000, 500, 200, 100].map(ele=>{
+    
+           return ele * 3;
+    });
+    
+    console.log(3timesArray);//[3000, 1500, 600, 300]   
    
 # reduce
 
@@ -246,11 +254,15 @@ Promise 四步驟：
   
   
    
-# map, every, filter, find, some
+# every, filter, find, some
 
    to be continued...
    
    
+# for in , for of, do...while
+
+  to be continued...
+    
    
 # async/ await
 
