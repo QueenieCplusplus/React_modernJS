@@ -1,6 +1,11 @@
 # React_modernJS
 useEffect, promise, forEach
 
+# ES5 & ES6, ES7
+
+ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler Babel 轉換 JS 及 JSX，
+將新語法轉換為相容（向下相容於） ES5，因此我們可以調整語言規範向上升級為 ES6 也無妨。
+
 
 # useEffect
 
