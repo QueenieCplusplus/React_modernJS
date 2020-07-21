@@ -233,7 +233,7 @@ Promise 四步驟：
   遍歷自己。
   
   
-# for in , do...while
+# for in , for of, do...while
 
   to be continued...
    
