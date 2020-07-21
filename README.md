@@ -268,9 +268,11 @@ Promise 四步驟：
    to be continued...
    
    
-# for in , for of, do...while
+# for of, do...while
 
-  to be continued...
+  for...of 會比 for...in 安全，因為 fo...in 不保證順序，JS 的 for of 如同其他語言的 for in。 
+  
+  do...while 基本上與 while 相同，然而停止條件是 while(false) do 只會進行一次。
     
    
 # async/ await
