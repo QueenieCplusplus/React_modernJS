@@ -204,6 +204,19 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
    (3) 當計時器或是非同步函式有結果後，這個值，會被 resolve 設置。
    
    (4) 值會被包在 Promise 裡面返回，如同吐司從烤箱中取出，無論途中開關幾度或是加入何種醬料。
+   
+   Promise 此建構函數擁有兩個回調函式：
+   
+   * resolve
+   
+   * reject
+   
+   使用 then 的注意事項：
+   
+   then 可以接受兩個 promise 或是函式，一是完成時使用，一是拒絕時會用。
+   雖然通常顯示一個，完成時使用。
+   
+     .then(fulfilment, rejection)
 
 # forEach loop
 
