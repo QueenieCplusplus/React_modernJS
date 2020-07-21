@@ -24,6 +24,17 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
         
         userChecker(); // welcom,plz enter name.
         
+        
+* 引用透明
+
+  能直接將函式呼叫取代為回傳值（換句話說，直接用回傳值取代整個呼叫）並且不改變程式行為的能力，稱為引用透明。
+  
+  
+  
+
+
+
+        
 * 字串插值
 
         //ES5
