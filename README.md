@@ -1,5 +1,5 @@
 # React_modernJS
-useEffect, promise, forEach
+useEffect, promise, forEach, async, useState
 
 # ES5 & ES6, ES7
 
