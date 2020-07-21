@@ -221,3 +221,12 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
      const [errorMsg, setErrorMsg] = useState(null); 
 
 
+# Maybe 型別
+
+   to be continued...
+
+
+
+# Either 型別
+
+   to be continued...
