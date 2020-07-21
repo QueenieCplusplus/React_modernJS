@@ -126,7 +126,28 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
 
   Promise 是一種物件，用來表示某事件必然發生，在尚未有 Promise 的時代前，開發者需要手動處理回傳成功或失敗的函數，
   然而有賴於 Promise 發明之後，此 API 提供非同步處理動作。
-
+  
+       // 可用 then 串連回呼函式，避免掉入回呼地獄的陷阱。
+       
+       updateToAPI().then().then().then()...
+       
+       // 範例
+       
+       function successor(res){
+       
+       }
+       
+       function errorHandler(err){
+       
+       }
+       
+       updateToAPI().then(successor, errorHandler)
+       
+       // 其他範例
+       
+       updateToAPI(res=>anotherInterface(res)).
+         then(callback=>successor(callback)).
+         catch(errorHandler)
 
 # forEach loop
 
