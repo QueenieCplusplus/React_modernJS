@@ -194,7 +194,12 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
    
    
    
-# map
+# reduce
+
+  基於陣列給出新值，難度比其他 forloop 高，但對於處理聚合的值效果良好，
+  倘若遍歷的值型別不太常見，那就特別適合使用 reduce()。
+   
+# map, every, filter, find, some
 
    to be continued...
    
