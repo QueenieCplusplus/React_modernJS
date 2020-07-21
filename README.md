@@ -195,7 +195,7 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
          catch(errorHandler)
          
          
-   Promise 四步驟：
+Promise 四步驟：
    
    (1) new Promise || Promise.resolve
    
@@ -211,12 +211,22 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
    
    * reject
    
-   使用 then 的注意事項：
+使用 then 的注意事項：
    
    then 可以接受兩個 promise 或是函式，一是完成時使用，一是拒絕時會用。
    雖然通常顯示一個，完成時使用。
    
      .then(fulfilment, rejection)
+     
+    
+其他函式的用法：
+   
+   reject 函式能創造出一個被拒絕的 promise 物件，而且有個 catch 函式能捕捉錯誤（但也不會全部捕捉），
+   .all() 函式則能在所有 promise 完成時回傳， .race() 函式能在第一個 promise 完成時回傳。
+   
+慎重叮嚀：
+
+   圍繞著 Promise API 的錯誤處理及初始建置有許多變種，會是相當刁鑽的體驗。
 
 # forEach loop
 
