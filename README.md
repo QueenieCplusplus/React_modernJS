@@ -103,11 +103,11 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
 
 * 模組注入方式
       
-      (略)
+                 (略)
 
 * 函數簡寫
 
-      (略)
+                 (略)
 
 
 # useEffect
@@ -221,7 +221,7 @@ Promise 四步驟：
     
 其他函式的用法：
    
-   reject 函式能創造出一個被拒絕的 promise 物件，而且有個 catch 函式能捕捉錯誤（但也不會全部捕捉），
+   reject 函式能創造出一個被拒絕的 promise 物件，而且有個 .catch() 函式能捕捉錯誤（但也不會全部捕捉），
    .all() 函式則能在所有 promise 完成時回傳， .race() 函式能在第一個 promise 完成時回傳。
    
 慎重叮嚀：
@@ -265,7 +265,7 @@ Promise 四步驟：
    
 # every, filter, find, some
 
-   to be continued...
+           to be continued...
    
    
 # for of, do...while
@@ -273,8 +273,20 @@ Promise 四步驟：
   for...of 會比 for...in 安全，因為 fo...in 不保證順序，JS 的 for of 如同其他語言的 for in。 
   
   do...while 基本上與 while 相同，然而停止條件是 while(false) do 只會進行一次。
+  
+      // do...while
     
-   
+      const i = 0;
+      let k_memory = [];
+      
+     do{
+     
+         k_memory.push(music[i])
+         i ++;
+      
+      }while( i <  music.count());
+    
+    
 # async/ await
 
        state = {
@@ -306,12 +318,12 @@ Promise 四步驟：
 
 # Maybe 型別
 
-   to be continued...
+           to be continued...
 
 
 
 # Either 型別
 
-   to be continued...
+           to be continued...
    
    
