@@ -33,12 +33,26 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
         // 郵件範例中，emailBody 即為引用透明。
         
         sendMail(getUser().toGreet(), emailBody)
+ 
   
   
-  
+        // 回傳值（賦值）的引用透明函數範例
 
-
-
+        (()=>3000)(); // 回傳 3000
+        
+        
+        
+        // 吃葡萄吐葡萄
+        
+        ((x)=>x)(1000);// 回傳 1000
+        
+        
+        
+        // 三倍卷範例
+        
+        ((1000)=> 3000)()
+        
+        
         
 * 字串插值
 
