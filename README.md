@@ -228,30 +228,36 @@ Promise 四步驟：
 
    圍繞著 Promise API 的錯誤處理及初始建置有許多變種，會是相當刁鑽的體驗。
    
+   
+   
      // AI Chat Bot
+     
      
      function wqerw(){
      
-	let endPoint = {
-		'url': url,
-		'method': 'POST',
-		'headers': {
-			'content-type': 'application/x-www-form-urlencoded'
-		},
-		'body': querystring.stringify({ 'jsonStr': JSON.stringify(params) })
-	};
+     
+		let endPoint = {
+			'url': url,
+			'method': 'POST',
+			'headers': {
+				'content-type': 'application/x-www-form-urlencoded'
+			},
+			'body': querystring.stringify({ 'jsonStr': JSON.stringify(params) })
+		};
+		
 	  
-	request.post(endPoint).then((body) => {
-		console.log(body)
-		let bodyJSON = JSON.parse(body);
-		return bodyJSON;
+		request.post(endPoint).then((body) => {
+			console.log(body)
+			let bodyJSON = JSON.parse(body);
+			return bodyJSON;
 
-	}).catch((error) => {
-		console.log('call hoitai api error :' + error);
-		return null;
-	})
+		}).catch((error) => {
+			console.log('call hoitai api error :' + error);
+			return null;
+		})
+		
         
-      }
+       }
 
 
 # forEach loop
