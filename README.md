@@ -275,13 +275,18 @@ Promise 四步驟：
   do...while 基本上與 while 相同，然而停止條件是 while(false) do 只會進行一次。
   
       // do...while
+      
+      /*(1) 設置變數
+      (2) 設定條件
+      (3) 更新方式*/
     
       const i = 0;
       let k_memory = [];
       
      do{
      
-         k_memory.push(music[i])
+         //if(!k_memory.includes(music[i])){...}
+         k_memory.push(music[i]) 
          i ++;
       
       }while( i <  music.count());
