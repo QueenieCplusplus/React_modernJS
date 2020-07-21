@@ -23,6 +23,16 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
         userCheck("Eric"); // welcome, Eric.
         
         userChecker(); // welcom,plz enter name.
+        
+* 字串插值
+
+        //ES5
+        
+        
+        
+        //ES6+
+        
+        
 
 * 胖箭頭 => 函式與綁定 bind(this)
 
