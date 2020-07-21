@@ -6,6 +6,10 @@ useEffect, promise, forEach
 ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler Babel 轉換 JS 及 JSX，
 將新語法轉換為相容（向下相容於） ES5，因此我們可以調整語言規範向上升級為 ES6 也無妨。
 
+* 變數宣告
+
+以往語言版本使用 var，新版本開始劃分 let 和 const ， let 可以重新賦值，const 不可，且 let 僅僅能在宣告在同一程式區塊（local）。
+
 
 # useEffect
 
