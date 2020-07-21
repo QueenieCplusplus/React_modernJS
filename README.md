@@ -231,6 +231,11 @@ Promise 四步驟：
 # forEach loop
 
   遍歷自己。
+  
+  
+# for in , do...while
+
+  to be continued...
    
    
    
