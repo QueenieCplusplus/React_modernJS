@@ -161,7 +161,7 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
         });
 
 
-# Promise
+# Promise (像是函子之類的高階函式結構)
 
   Promise 是一種物件，用來表示某事件必然發生，在尚未有 Promise 的時代前，開發者需要手動處理回傳成功或失敗的函數，
   然而有賴於 Promise 發明之後，此 API 提供非同步處理動作。
@@ -193,6 +193,17 @@ ECMAScript 5 簡稱 ES5，為 JS 語言規範。React Native 採用 JS Compiler 
        updateToAPI(res=>anotherInterface(res)).
          then(callback=>successor(callback)).
          catch(errorHandler)
+         
+         
+   Promise 四步驟：
+   
+   (1) new Promise || Promise.resolve
+   
+   (2) 放置一個值或是非同步的產生值的程序到 Promise 裡。
+   
+   (3) 當計時器或是非同步函式有結果後，這個值，會被 resolve 設置。
+   
+   (4) 值會被包在 Promise 裡面返回，如同吐司從烤箱中取出，無論途中開關幾度或是加入何種醬料。
 
 # forEach loop
 
