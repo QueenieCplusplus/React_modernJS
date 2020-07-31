@@ -363,4 +363,6 @@ Promise 四步驟：
 
            to be continued...
    
-   
+ # Await & Async 
+
+https://wcc723.github.io/javascript/2017/12/30/javascript-async-await/ 
