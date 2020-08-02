@@ -394,6 +394,8 @@ https://github.com/QueenieCplusplus/file_downloader (file downloader)
 
 https://github.com/QueenieCplusplus/excel_util (windows spreadsheet)
 
+https://github.com/QueenieCplusplus/emailer (email)
+
 
 
 
