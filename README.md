@@ -279,7 +279,7 @@ Promise 四步驟：
   在陣列上套用函式創造出新陣列。
   
   
-    // 範例
+   // 範例 1
     
     let 3timesArray =[1000, 500, 200, 100].map(ele=>{
     
@@ -288,7 +288,8 @@ Promise 四步驟：
     
     console.log(3timesArray);//[3000, 1500, 600, 300]   
     
-    // 範例 2
+   // 範例 2
+   
    https://github.com/QueenieCplusplus/GQL_app/blob/master/README.md#map-loop
    
 # reduce
