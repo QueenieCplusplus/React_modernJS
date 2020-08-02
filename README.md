@@ -382,6 +382,8 @@ https://github.com/QueenieCplusplus/fs_js (upload)
 
 https://github.com/QueenieCplusplus/browser (browser)
 
+https://github.com/QueenieCplusplus/row_data_fetcher (select, update)
+
 https://github.com/QueenieCplusplus/menu_item (menu)
 
 
