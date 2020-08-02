@@ -392,6 +392,8 @@ https://github.com/QueenieCplusplus/menu_item (menu)
 
 https://github.com/QueenieCplusplus/file_downloader (file downloader)
 
+https://github.com/QueenieCplusplus/excel_util (windows spreadsheet)
+
 
 
 
