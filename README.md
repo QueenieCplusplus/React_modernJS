@@ -372,6 +372,6 @@ https://wcc723.github.io/javascript/2017/12/30/javascript-async-await/
 
 https://github.com/QueenieCplusplus/login
 
-https://github.com/QueenieCplusplus/web_token
+https://github.com/QueenieCplusplus/web_token (jwt)
 
 https://github.com/QueenieCplusplus/js_time_app (time)
