@@ -396,7 +396,7 @@ https://github.com/QueenieCplusplus/excel_util (windows spreadsheet)
 
 https://github.com/QueenieCplusplus/emailer (email)
 
-https://github.com/QueenieCplusplus/js_dba
+https://github.com/QueenieCplusplus/js_dba (db query)
 
 
 
