@@ -287,6 +287,9 @@ Promise 四步驟：
     });
     
     console.log(3timesArray);//[3000, 1500, 600, 300]   
+    
+    // 範例 2
+   https://github.com/QueenieCplusplus/GQL_app/blob/master/README.md#map-loop
    
 # reduce
 
